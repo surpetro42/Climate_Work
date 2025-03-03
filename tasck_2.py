@@ -22,15 +22,15 @@ while True:
             print(f"Result: {num1} + {num2} = {res}")
         if nb == 2:
             res = num1 - num2
-            print(f"Result: {num1} + {num2} = {res}")
+            print(f"Result: {num1} - {num2} = {res}")
         if nb == 3:
             res = num1 * num2
-            print(f"Result: {num1} + {num2} = {res}")
+            print(f"Result: {num1} * {num2} = {res}")
         if nb == 4:
             if num2 == 0:
                 print("Error! Division by zero is not possible")
             else:
                 res = num1 / num2
-                print(f"Result: {num1} + {num2} = {res}")
+                print(f"Result: {num1} / {num2} = {res}")
     except:
         print("Your Conclusion is incorrect :(")
